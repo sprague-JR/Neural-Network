@@ -1,3 +1,5 @@
+import numpy as np
+
 class Neural_Network(object):
     def __init__(self,input_length,output_length,hidden_lengths, learning_rate):
     #parameters

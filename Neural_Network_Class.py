@@ -78,8 +78,6 @@ class Neural_Network(object):
     def train(self, X,y, iterations):
         temp_input = X
         temp_output = y
-        temp_input = np.array(temp_input)
-        temp_output = np.array(temp_output)
         o = 0
         for i in range(iterations):
             o = self.forward(temp_input)
